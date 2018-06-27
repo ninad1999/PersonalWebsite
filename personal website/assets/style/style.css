@@ -71,6 +71,34 @@ p {
   }
 }
 
+.my-button {
+		font-size: 1em;
+		line-height: normal;
+		text-transform: uppercase;
+		font-family: 'Lato', sans-serif;
+		font-weight: 900;
+		-webkit-transition: all .3s ease-in-out;
+		transition: all .3s ease-in-out, color 0.2s 0.3s;
+		letter-spacing: 0;
+		border-radius: 45px;
+		height: auto;
+		padding: .8em 2.1em;
+}
+
+.my-button:hover {
+	cursor: pointer;
+	padding: .8em 2.7em;
+}
+
+.my-button:active,
+.my-button:focus,
+.my-button.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 #writing-text {
 	color: white;
 	text-align: center;
@@ -86,6 +114,7 @@ p {
     border: 2px solid rgba(255, 103, 68, 0.91);
     border-radius: 50px;
     background: rgba(255, 103, 68, 0.91);
+
 }
 
 .btn {
@@ -165,6 +194,8 @@ hr {
 
 .school-style {
 	margin-top: 20px;
+	/*text-align: center;*/
+	padding-left: 60px;
 }
 
 .school-style p {
@@ -173,16 +204,17 @@ hr {
 	font-size: 20px;
 }
 
+
 #education img {
 	height: 200px;
 	width: 200px;
+	margin-left: 80px;
 }
 
 #experience {
 	background-color: #4c6d86;
 	padding-top: 20px;
 	padding-bottom: 30px;
-
 }
 
 #experience h2 {
@@ -239,6 +271,7 @@ hr {
 	width: 50%;
 	margin: 0 auto;
 	padding-bottom: 15%;
+	padding-right: 30px;
 }
 
 /*#work {
@@ -252,7 +285,7 @@ hr {
 }*/
 
 #work {
-	padding: 6em 4em 3em;
+	padding: 2em 4em 3em;
 	background-color: #fff;
 }
 
@@ -267,7 +300,7 @@ hr {
 
 
 #work .work-row {
-	margin-bottom: 5.5em;
+	margin-bottom: 2em;
 }
 
 .details h3 {
@@ -323,5 +356,113 @@ hr {
 .first-btn {
 	margin-top: 10px;
 }
+
+#projects {
+	background-color: rgba(255, 103, 68, 0.91);
+	color: white;
+	padding: 2em 4em 2em;
+	font-family: "Lato";
+}
+
+#projects a, #projects a:link, #projects a:active{
+	/*color: rgba(255, 103, 68, 0.91);
+	border: 2px solid rgba(255, 103, 68, 0.91) !important;
+	background-color: #fff;*/
+
+	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);
+	background-color: rgba(255, 103, 68, 0.91) !important;
+	color: white;
+	border: 2px solid white !important;
+}
+
+#projects a:hover, #projects a:focus {
+	/*box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);
+	background-color: rgba(255, 103, 68, 0.91) !important;
+	color: #fff;*/
+	background-color: white !important;
+	color: rgba(255, 103, 68, 0.91);
+	border: 2px solid white !important;
+}
+
+#projects h2 {
+	text-align: center;
+	letter-spacing: 2px;
+	padding-bottom: 10px;
+	border-bottom: 2px white solid;
+	font-weight: 700;
+}
+
+.project {
+	padding: 30px;
+}
+
+.project h3 {
+	font-weight: 700;
+}
+
+.project .btn {
+	margin-top: 20px;
+}
+
+.project p {
+	font-size: 20px;
+}
+
+footer {
+	background-color: #232323;
+	color: rgba(255, 255, 255, 0.5);
+	padding-bottom: 50px;
+	padding-top: 30px;
+	border-top: 2px white solid;
+}
+
+footer p {
+	text-align: center;
+}
+
+footer .icon {
+	color: rgba(255, 255, 255, 0.5) ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
