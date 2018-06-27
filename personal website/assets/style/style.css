@@ -13,7 +13,7 @@ body {
 }
 
 .thinbar {
-    border-bottom: 5px solid black; /*#F33F12;*/
+    border-bottom: 5px solid black; 
 }
 
 .intro h2 {
@@ -34,15 +34,8 @@ ul {
 }
 
 #icons {
-	/*display: block;*/
-	/*margin: 10px 500px;*/
 	margin: 20px auto;
 	width: 275px;
-	/*width: 30%;*/
-	/*margin: 1.66%;*/
-	/*padding: 0;*/
-	/*float: left;*/
-	/*max-width: 200px;*/
 }
 
 .icon:hover {
@@ -61,7 +54,6 @@ ul {
 }
 
 p {
-	/*width: 50%;*/
 	margin: 0 auto;
 }
 
@@ -148,8 +140,6 @@ hr {
 	color: white;
 	padding-bottom: 50px;
 	padding-top: 20px;
-	/*margin: 0 auto;*/
-	/*max-width: 800px;*/
 }
 
 #about h2 {
@@ -159,7 +149,6 @@ hr {
 	font-weight: 700;
 	letter-spacing: 4px;
 	padding-bottom: 10px;
-	/*width: 30%;*/
 }
 
 #about p {
@@ -184,7 +173,6 @@ hr {
 
 #education h4 {
 	color: #738182
-	/*font-weight: 700;*/
 }
 
 .school {
@@ -194,7 +182,6 @@ hr {
 
 .school-style {
 	margin-top: 20px;
-	/*text-align: center;*/
 	padding-left: 60px;
 }
 
@@ -223,10 +210,8 @@ hr {
 	padding-bottom: 10px;
 	letter-spacing: 2px;
 	font-family: "Lato";
-	/*text-align: center;*/
 	font-weight: 700;
 	border-bottom: 2px solid rgba(255, 255, 255, 0.6);
-	/*margin: 0 auto;*/
 }
 
 .tag-line {
@@ -235,7 +220,6 @@ hr {
 	font-family: "Lato";
 	font-weight: normal;
 	padding-bottom: 20px;
-	/*text-align: center;*/
 }
 
 #experience i {
@@ -252,7 +236,6 @@ hr {
 .experience-topics p {
 	color: #ACAEB2;
 	font-family: "Lato";
-	/*font-weight: 500;*/
 }
 
 .experience-topics ul li {
@@ -260,7 +243,6 @@ hr {
 	color: #bbd2ff;
 	font-family: "Lato";
 	font-weight: 500;
-	/*text-align: center;*/
 }
 
 .text-center {
@@ -273,16 +255,6 @@ hr {
 	padding-bottom: 15%;
 	padding-right: 30px;
 }
-
-/*#work {
-	padding-bottom: 30px;
-	padding-top: 20px;
-}*/
-
-/*#work img {
-	width: 500px;
-	height: 300px;
-}*/
 
 #work {
 	padding: 2em 4em 3em;
@@ -306,11 +278,9 @@ hr {
 .details h3 {
 	color: #738182;
 	font-weight: 700;
-	/*text-transform: uppercase;*/
 }
 
 .details .platform{
-	/*font-size: 1.2em;*/
 	text-transform: uppercase;
 	margin: 1em 0 -0.1em;
 	font-family: "Lato"
@@ -365,10 +335,6 @@ hr {
 }
 
 #projects a, #projects a:link, #projects a:active{
-	/*color: rgba(255, 103, 68, 0.91);
-	border: 2px solid rgba(255, 103, 68, 0.91) !important;
-	background-color: #fff;*/
-
 	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);
 	background-color: rgba(255, 103, 68, 0.91) !important;
 	color: white;
@@ -376,9 +342,6 @@ hr {
 }
 
 #projects a:hover, #projects a:focus {
-	/*box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);
-	background-color: rgba(255, 103, 68, 0.91) !important;
-	color: #fff;*/
 	background-color: white !important;
 	color: rgba(255, 103, 68, 0.91);
 	border: 2px solid white !important;
@@ -423,46 +386,3 @@ footer p {
 footer .icon {
 	color: rgba(255, 255, 255, 0.5) ;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
