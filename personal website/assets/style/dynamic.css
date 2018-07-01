@@ -136,11 +136,17 @@
       padding-bottom: 12px;
       padding-top: 6px;
    }
-   .intro h1 { font: 58px/1.1em 'Lato'; }
+
+   .intro h1 { 
+      font: 58px/1.1em 'Lato'; 
+      padding-top: 150px;
+   }
+
    header .writing-text {
-      font: 16px/1.9em 'Lato';
+      font: 25px/1.9em 'Lato';
       width: 85%;
    }
+
    .intro hr {
       width: 80%;
       margin: 18px auto;
