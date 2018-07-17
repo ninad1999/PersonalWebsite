@@ -3,7 +3,7 @@ header {
     background-size: cover !important;
 		-webkit-background-size: cover !important;
 	/*height: 700px;*/
-	height: 800px;
+	height: 100vh;
    	min-height: 500px;
 	width: 100%;
 	overflow: hidden;
@@ -27,7 +27,7 @@ body {
 				 0px 8px 13px rgba(0,0,0,0.1),
 				 0px 18px 23px rgba(0,0,0,0.1);
 	font-weight: 700;
-	
+	margin-top: 35px;
 }
 
 ul {
