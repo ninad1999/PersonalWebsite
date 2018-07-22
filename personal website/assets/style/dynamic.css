@@ -24,7 +24,7 @@
       letter-spacing: -1px;      
    }
    .intro #writing-text {
-      font: 25px/1.9em 'lato';
+      font: 20px/1.9em 'lato';
       width: 80%;
    }
    .intro hr {
@@ -139,7 +139,7 @@
 
    .intro h1 { 
       font: 58px/1.1em 'Lato'; 
-      padding-top: 60px;
+      padding-top: 100px;
    }
 
    header .writing-text {
@@ -151,11 +151,3 @@
       width: 80%;
       margin: 18px auto;
    }
-
-   /* header social links */
-   /*.intro .icons {
-      margin: 18px 0 24px 0;
-      font-size: 24px;
-      line-height: 36px;      
-   }*/
-   /*header #icons li { margin: 0 10px; }*/
