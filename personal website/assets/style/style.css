@@ -406,6 +406,47 @@ hr {
 	font-size: 20px;
 }
 
+#resume {
+	background-color: #4c6d86;
+	padding :40px;
+}
+
+#resume h2 {
+	color: #fff;
+	text-align: center;
+	margin-bottom: .7em;
+	padding-bottom: 10px;
+	letter-spacing: 2px;
+	font-family: "Lato";
+	font-weight: 700;
+	border-bottom: 2px solid #fff;
+}
+
+#resume a, #resume a:link, #resume a:active{
+	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);
+	background-color: #4c6d86 !important;
+	color: white;
+	border: 2px solid white !important;
+}
+
+#resume a:hover, #resume a:focus {
+	background-color: white !important;
+	color: #4c6d86;
+	border: 2px solid white !important;
+}
+
+#resume p {
+	text-align: center;
+	margin-top: 10px;
+}
+
+#resume span {
+	color: white;
+	font-weight: 700;
+	font-size: 23px;
+	margin-left: 5px;
+}
+
 footer {
 	background-color: #232323;
 	color: rgba(255, 255, 255, 0.5);
