@@ -36,6 +36,7 @@
       font: 11px 'opensans-bold', sans-serif;
       letter-spacing: 1.5px;
    }
+}
 
    /* mobile wide/smaller tablets
 ---------------------------------------------------------------------- */
@@ -130,6 +131,7 @@
    }  
 
 
+
    /* Header Styles
    -------------------------------------------------------------------- */
    .container {
@@ -151,12 +153,22 @@
       width: 80%;
       margin: 18px auto;
    }
+}
+
 
 @media only screen and (min-width: 600px) {
 
 	.intro h1{
-		padding-top: 13%;
-		margin-top: 40px;
+		/*padding-top: 13%;*/
+		margin-top: 100px;
 	}
 } 
+
+@media only screen and (min-width: 600px) {
+
+	.intro h1{
+		/*padding-top: 13%;*/
+		margin-top: 60px;
+	}
+}
 
