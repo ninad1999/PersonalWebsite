@@ -155,6 +155,7 @@
 @media only screen and (min-width: 600px) {
 
 	.intro h1{
+		padding-top: 13%;
 		margin-top: 40px;
 	}
 } 
